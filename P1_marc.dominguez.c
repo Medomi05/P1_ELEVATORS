@@ -1,12 +1,10 @@
 /***********************************************
-*
 * @Proposito: Disenar un programa que involucre 3 ascensores que 
 * circulen en un entrono de 8 plantas para proponer unas posibles
 * reformas en uno de los edificios de la Salle.
 * @Autor/es: Marc Dominguez Larroya
 * @Fecha crecion: 12 / 11 / 23
 * @Fecha ultima modificacion: 26 / 11 / 23
-*
 ************************************************/
 
 #include <stdio.h>
@@ -767,7 +765,7 @@ int main () {
                             plantas_b_total = 0;
                             printf ("Elevator Beta inspected! (%d euros)\n", coste_total_inspecciones_b);
                         }
-                        if(requiere_inspeccion_g > 0) {
+                        if (requiere_inspeccion_g > 0) {
                             coste_total_inspecciones_g = requiere_inspeccion_g * INSPECTION_PRICE;
                             //reset plantas
                             plantas_g_total = 0;
